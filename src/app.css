@@ -1,0 +1,48 @@
+/* @import url("https://fonts.googleapis.com/css?family=Inter");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 1440px;
+  font-family: Inter;
+  color: var(--color-text);
+  background-color: var(--color-background-900);
+}
+@media (max-width: 780px) {
+  * {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  body {
+    max-width: 780px;
+    font-family: Inter;
+    color: var(--color-text);
+    background-color: var(--color-background-900);
+  }
+} */
+
+@import url("https://fonts.googleapis.com/css?family=Inter");
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Inter", sans-serif;
+  color: var(--color-text);
+  background-color: var(--color-background-900);
+}
+
+@media (max-width: 780px) {
+  body {
+    width: 100%;
+    height: 100%;
+    font-size: 14px; /* Adjust font size for mobile */
+  }
+}
